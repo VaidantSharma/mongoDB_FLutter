@@ -7,7 +7,7 @@ const app = express();
 // Connect to MongoDB
 async function connectDB() {
     try {
-        await mongoose.connect("mongodb+srv://Admin:<Password(Kept Hidden)>@yumfac.2cjxx.mongodb.net/");
+        await mongoose.connect("mongodb+srv://Admin:Vaidant08@yumfac.2cjxx.mongodb.net/");
         console.log("Connected to MongoDB");
     } catch (error) {
         console.error("Error connecting to MongoDB:", error);
